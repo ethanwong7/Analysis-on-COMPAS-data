@@ -12,4 +12,3 @@ Our Solution:
 - We then ran machine learning models on our existing clean data and used confusion matrices to look for false positives and false negatives that our models were predicting as concrete proof for the bias in our data.
 
 Our Answer: We conclude, through our findings, that the data is indeed biased towards African Americans.
-hi
