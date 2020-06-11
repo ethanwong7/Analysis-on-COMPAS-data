@@ -13,11 +13,11 @@ Our Solution:
 
 Our Answer: We conclude, through our findings, that the data is indeed biased towards African Americans.
 
-Order of which to view our notebooks:
-1. Raw_Data_Analysis : We cleaned and performed EDA on the raw dataset and drew insights
-2. Two_Year_Data_Analysis : We cleaned and performed EDA on the two year dataset and drew insights
-3. Logistic_Regression_Model : We modelled our data using a logistic regression and looked at FP and FN counts and rates
-4. Decision_Tree_Model : We modelled our data using a decision tree and looked at false positvie and false negative counts and rates
-5. COMPAS_Ensemble_Methods : We used ensemble methods to select the most accurate model for our data, ran that model, and looked at FP and FN counts and rates
-6. Clustering_K-means_two_year : We divided our data into clusters as a model but found there were no natural groupings or clusters in our data
-7. Correlation_Analyses : This notebook contains hypothesis tests and EDA on the data and used the Steiger and Fisher methods to compare correlations
+Notebooks:
+Raw_Data_Analysis : We cleaned and performed EDA on the raw dataset and drew insights
+Two_Year_Data_Analysis : We cleaned and performed EDA on the two year dataset and drew insights
+Logistic_Regression_Model : We modelled our data using a logistic regression and looked at false positive and false negative counts and rates
+Decision_Tree_Model : We modelled our data using a decision tree and looked at false positive and false negative counts and rates
+COMPAS_Ensemble_Methods : We used ensemble methods to select the most accurate model for our data, ran that model, and looked at FP and FN counts and rates
+Clustering_K-means_two_year : We divided our data into clusters as a model but found there were no natural groupings or clusters in our data
+Correlation_Analyses : This notebook contains hypothesis tests and EDA on the data and used the Steiger and Fisher methods to compare correlations
