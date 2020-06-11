@@ -14,7 +14,9 @@ Our Solution:
 Our Answer: We conclude, through our findings, that the data is indeed biased towards African Americans.
 
 Notebooks:
+
 Raw_Data_Analysis : We cleaned and performed EDA on the raw dataset and drew insights
+
 Two_Year_Data_Analysis : We cleaned and performed EDA on the two year dataset and drew insights
 
 Logistic_Regression_Model : We modelled our data using a logistic regression and looked at false positive and false negative counts and rates
