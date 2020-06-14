@@ -11,7 +11,7 @@ Our Solution:
 - Starting with the raw file, we cleaned the data and performed EDA and hypothesis tests to see how factors such as decile score (a score from 1-10 to show the likelihood of convicts recommitting crimes, 10 being the highest) and recommended supervision level were distributed amongst the races given in our data. We then repeated the process on the two-year data file.
 - We then ran machine learning models on our existing clean data and used confusion matrices to look for false positives and false negatives that our models were predicting as concrete proof for the bias in our data.
 
-Our Answer: We conclude, through our findings, that the data is indeed biased towards African Americans.
+Our Answer: We conclude, through our findings, that the data is indeed biased towards African Americans, and that COMPAS itself is a considerably inaccurate algorithm.
 
 Notebooks:
 - Raw_Data_Analysis : We cleaned and performed EDA on the raw dataset and drew insights
@@ -21,3 +21,4 @@ Notebooks:
 - COMPAS_Ensemble_Methods : We used ensemble methods to select the most accurate model for our data, ran that model, and looked at FP and FN counts and rates
 - Clustering_K-means_two_year : We divided our data into clusters as a model but found there were no natural groupings or clusters in our data
 - Correlation_Analyses : This notebook contains hypothesis tests and EDA on the data and used the Steiger and Fisher methods to compare correlations
+- Column_Manipulation_Notebooks : This folder contains two variations of our logistic regression. We ran logistic regressions and changed up the columns we used to see if it would affect our results (it did not), and also showed that the risk scores themselves are inherently biased
